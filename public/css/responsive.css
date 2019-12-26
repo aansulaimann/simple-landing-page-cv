@@ -1,0 +1,457 @@
+/*-----------------------------------------------------
+Large Mobile version
+-------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    /* navbar area */
+    .navbar {
+        background-color: #f5f5f5;
+        box-shadow: 7px 6px 20px #acacac;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-collapse {
+        background-color: #397d7d;
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+        margin: 10px 0 0 20px;
+        text-shadow: none;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        color: white !important;
+    }
+
+    .nav-link span {
+        color: white !important;
+    }
+
+    /* Home area */
+    .caption-1 {
+        margin: 140px 0 0 0;
+        font-size: 39px;
+    }
+
+    .bg-btn {
+        margin: 0 140px 140px 140px;
+    }
+
+    /* social media */
+    .info-sosmed {
+        margin-top: -250px;
+    }
+
+    .caption-sosmed h2 {
+        font-size: 24px;
+    }
+
+    .ic_sosmed a img {
+        margin-top: 25px;
+        margin-left: 5px;
+        width: 70px;
+    }
+
+    .ic_sosmed1 a img {
+        margin-left: 200px;
+        margin-top: -160px;
+        width: 70px;
+    }
+
+    .ic_sosmed2 a img {
+        margin-top: 25px;
+        margin-left: 5px;
+        width: 70px;
+    }
+
+    .ic_sosmed3 a img {
+        margin-left: 200px;
+        margin-top: -160px;
+        width: 70px;
+    }
+
+    /* man : Aan */
+    .me h3 {
+        font-size: 25px;
+        margin-top: -50px;
+    }
+
+    .me h3::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #397d7d;
+        width: 45%;
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+
+    .ic_me {
+        width: 150px;
+    }
+
+    .b-modal {
+        margin-top: 390px;
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    .b-modal2 {
+        margin-top: 390px;
+        width: 100px;
+        margin-left: 70px;
+    }
+
+    .b-modal3 {
+        width: 90px;
+        margin-top: 98px;
+    }
+
+    .b-modal4 {
+        width: 90px;
+        margin-left: 70px;
+        margin-top: 90px;
+    }
+
+    /* footer */
+    .ct1 h3::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #397d7d;
+        width: 25%;
+        margin-left: 1px;
+        padding-top: 5px;
+    }
+
+    .ct1 h6,
+    .ct h6 {
+        font-size: 13px;
+    }
+
+    .ct1 h3,
+    .ct h3 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .ct1 img,
+    .ct img {
+        margin-top: 8px;
+        width: 35px;
+    }
+
+    .ft h5 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+}
+
+/*-----------------------------------------------------
+Medium Mobile version
+-------------------------------------------------------*/
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+
+    /* navbar area */
+    .navbar {
+        background-color: #f5f5f5;
+        box-shadow: 7px 6px 20px #acacac;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-collapse {
+        background-color: #397d7d;
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+        margin: 10px 0 0 20px;
+        text-shadow: none;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        color: white !important;
+    }
+
+    .nav-link span {
+        color: white !important;
+    }
+
+    /* Home area */
+    .caption-1 {
+        margin: 140px 0 0 0;
+        font-size: 30px;
+    }
+
+    .bg-btn {
+        margin: 10px 120px 0 10px;
+    }
+
+    /* social media */
+    .info-sosmed {
+        margin-top: -250px;
+    }
+
+    .caption-sosmed h2 {
+        font-size: 24px;
+    }
+
+    .ic_sosmed a img {
+        margin-top: 25px;
+        margin-left: 5px;
+        width: 70px;
+    }
+
+    .ic_sosmed1 a img {
+        margin-left: 125px;
+        margin-top: -160px;
+        width: 70px;
+    }
+
+    .ic_sosmed2 a img {
+        margin-top: 25px;
+        margin-left: 5px;
+        width: 70px;
+    }
+
+    .ic_sosmed3 a img {
+        margin-left: 125px;
+        margin-top: -160px;
+        width: 70px;
+    }
+
+    /* man : Aan */
+    .me h3 {
+        font-size: 24px;
+    }
+
+    .me h3::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #397d7d;
+        width: 45%;
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+
+    .ic_me {
+        width: 150px;
+    }
+
+    .b-modal {
+        margin-top: 390px;
+        width: 100px;
+    }
+
+    .b-modal2 {
+        margin-top: 390px;
+        width: 100px;
+        margin-left: 70px;
+    }
+
+    .b-modal3 {
+        width: 90px;
+        margin-top: 98px;
+    }
+
+    .b-modal4 {
+        width: 90px;
+        margin-left: 70px;
+        margin-top: 90px;
+    }
+
+    /* footer */
+    .ct1 h3::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #397d7d;
+        width: 25%;
+        margin-left: 1px;
+        padding-top: 5px;
+    }
+
+    .ct1 h6,
+    .ct h6 {
+        font-size: 15px;
+    }
+
+    .ct1 h3,
+    .ct h3 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .ct1 img,
+    .ct img {
+        margin-top: 8px;
+        width: 35px;
+    }
+
+    .ft h5 {
+        font-size: 10px;
+    }
+}
+
+/*-----------------------------------------------------
+Small Mobile version
+-------------------------------------------------------*/
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+
+    /* navbar area */
+    .navbar {
+        background-color: #f5f5f5;
+        box-shadow: 7px 6px 20px #acacac;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-collapse {
+        background-color: #397d7d;
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+        margin: 10px 0 0 20px;
+        text-shadow: none;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        color: white !important;
+    }
+
+    .nav-link span {
+        color: white !important;
+    }
+
+    /* Home area */
+    .caption-1 {
+        margin: 130px 0 0 0;
+        font-size: 26px;
+    }
+
+    .bg-btn {
+        margin: 10px 120px 0 10px;
+    }
+
+    /* social media */
+    .info-sosmed {
+        margin-top: -250px;
+    }
+
+    .caption-sosmed h2 {
+        font-size: 24px;
+    }
+
+    .ic_sosmed a img {
+        margin-top: 25px;
+        margin-left: -15px;
+        width: 70px;
+    }
+
+    .ic_sosmed1 a img {
+        margin-left: 100px;
+        margin-top: -160px;
+        width: 70px;
+    }
+
+    .ic_sosmed2 a img {
+        margin-top: 25px;
+        margin-left: -15px;
+        width: 70px;
+    }
+
+    .ic_sosmed3 a img {
+        margin-left: 100px;
+        margin-top: -160px;
+        width: 70px;
+    }
+
+    /* man : Aan */
+    .me h3 {
+        font-size: 20px;
+        margin-top: -70px;
+    }
+
+    .me h3::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #397d7d;
+        width: 45%;
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+
+    .ic_me {
+        width: 135px;
+    }
+
+    .b-modal {
+        margin-top: 390px;
+        width: 90px;
+    }
+
+    .b-modal2 {
+        margin-top: 390px;
+        width: 90px;
+        margin-left: 70px;
+    }
+
+    .b-modal3 {
+        width: 90px;
+        margin-top: 98px;
+    }
+
+    .b-modal4 {
+        width: 90px;
+        margin-left: 70px;
+        margin-top: 90px;
+    }
+
+    /* footer */
+    .ct1 h3::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #397d7d;
+        width: 25%;
+        margin-left: 1px;
+        padding-top: 5px;
+    }
+
+    .ct1 h6,
+    .ct h6 {
+        font-size: 13px;
+    }
+
+    .ct1 h3,
+    .ct h3 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .ct1 img,
+    .ct img {
+        margin-top: 8px;
+        width: 35px;
+    }
+
+    .ft h5 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+}

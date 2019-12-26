@@ -1,0 +1,218 @@
+/* --------------------------------------------------------------------
+[Table of contents]
+default css
+navbar
+homearea
+socialmedia
+man:aan
+portfolio
+-----------------------------------------------------------------------*/
+
+/* --------------------------------------------------------------------
+default css
+-----------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap");
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000;
+  position: relative;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------- 
+navbar
+-----------------------------------------------------------------------------------*/
+.navbar-brand {
+  font-size: 25px;
+  color: #397d7d !important;
+  text-shadow: 5px 2px 5px white;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: #acacac !important;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.nav-link span {
+  color: #397d7d;
+  font-weight: bold;
+}
+
+/*---------------------------------------------------------------------------------- 
+home-area
+-----------------------------------------------------------------------------------*/
+#home-area.bg-2 {
+  background-image: url(../assets/home-bg1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1100px;
+  position: relative;
+}
+
+#home-area.bg-1 {
+  background-color: #f5f5f5;
+  height: 760px;
+  z-index: -10;
+}
+
+.caption-1 {
+  font-weight: 200;
+  color: #397d7d;
+  font-size: 45px;
+  margin-left: 500px;
+  margin-top: 250px;
+}
+
+.caption-1 span {
+  font-weight: bold;
+  color: #397d7d;
+}
+
+.bg-btn {
+  width: 150px;
+  padding: 11px 25px 11px 25px;
+  border-radius: 20px;
+  background-color: #397d7d;
+  color: white;
+  margin-left: 520px;
+  box-shadow: 7px 6px 20px #acacac;
+}
+
+/*---------------------------------------------------------------------------------- 
+Sosial media
+-----------------------------------------------------------------------------------*/
+.info-sosmed {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -90px;
+  background-color: #f5f5f5;
+  padding: 30px;
+}
+
+.caption-sosmed {
+  color: #397d7d;
+  font-weight: 200;
+  font-family: "montserrat", sans-serif;
+}
+
+.caption-sosmed span {
+  font-weight: 900;
+}
+
+/*---------------------------------------------------------------------------------- 
+man : Aan
+-----------------------------------------------------------------------------------*/
+.me {
+  font-family: "montserrat", sans-serif;
+  color: #397d7d;
+}
+
+.me h3 span {
+  font-weight: bold;
+  color: #397d7d;
+}
+
+.me h3::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #397d7d;
+  width: 15%;
+  margin-left: 310px;
+  padding-top: 5px;
+}
+
+/* --------------------------------------------------------------------
+portfolio
+-----------------------------------------------------------------------*/
+
+.bg-btn1 {
+  position: relative;
+  width: 150px;
+  padding: 11px 25px 11px 25px;
+  border-radius: 20px;
+  background-color: #397d7d;
+  color: white;
+  z-index: 10;
+  box-shadow: 7px 6px 20px #acacac;
+}
+
+.ct h3 {
+  font-weight: bold;
+  font-family: "montserrat", sans-serif;
+  color: #397d7d;
+}
+
+.ct1 h3 span {
+  font-weight: bold;
+  font-family: "montserrat", sans-serif;
+  color: #397d7d;
+}
+
+.ct1 h3 {
+  font-family: "montserrat", sans-serif;
+  color: #397d7d;
+}
+
+.ct h3::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #397d7d;
+  width: 25%;
+  padding-top: 5px;
+}
+
+.ct1 h3::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #397d7d;
+  width: 25%;
+  padding-top: 5px;
+}
+
+.ct h6,
+.ct1 h6 {
+  font-family: "montserrat", sans-serif;
+}
+
+.ft h5 {
+  font-family: "montserrat", sans-serif;
+  color: #397d7d;
+  font-size: 20px;
+}
+
+.ft h5 span {
+  color: #397d7d;
+  font-weight: bold;
+}
